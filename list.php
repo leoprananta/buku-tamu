@@ -43,7 +43,7 @@
 			$pecahkan = explode('-', $tanggal);
 		
 			return $hari . ', ' . $pecahkan[2] . ' ' . $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
-	}
+		}
 	?>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 			<div class="container">
